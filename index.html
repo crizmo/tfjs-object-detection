@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TensorFlow.js Object Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>TensorFlow.js Object Detection</h1>
+  <select id='base_model'>
+    <option value="lite_mobilenet_v2">SSD Lite Mobilenet V2</option>
+    <option value="mobilenet_v1">SSD Mobilenet v1</option>
+    <option value="mobilenet_v2">SSD Mobilenet v2</option>
+  </select>
+  <div class="container">
+    <button type="button" id="run">Run</button>
+    <button type="button" id="toggle">Toggle Image</button>
+  </div>
+  <input type="file" id="upload" accept="image/*" />
+  <div class="container">
+    <img id="image" style="max-width: 600px; max-height: 399px;" />
+    <canvas id="canvas"></canvas>
+  </div>
+</body>
+<script src="index.js"></script>
+
+
+</html>

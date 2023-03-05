@@ -1,0 +1,8 @@
+# ignore env , dist folder , node_modules folder , .cache folder , .vscode folder
+# and .DS_Store file
+
+node_modules/
+dist/
+cache/
+.env
+package-lock.json
