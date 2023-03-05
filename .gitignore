@@ -3,6 +3,6 @@
 
 node_modules/
 dist/
-cache/
+.cache/
 .env
 package-lock.json
